@@ -1,0 +1,53 @@
+# Environment variables and sensitive data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# API Keys and secrets
+secrets.json
+config.json
+credentials.json
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/build/
+dist/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Testing
+coverage/
+*.test.js
+*.spec.js
+

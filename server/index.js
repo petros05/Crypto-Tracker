@@ -10,7 +10,7 @@ env.config();
 const app = express();
 const port = 3000;
 const saltRounds = 10;
-const JWT_SECRET = "your_jwt_secret_key";
+const JWT_SECRET = process.env.JWT_SECRET || "change_this_to_a_secure_random_string_in_production";
 const COINGECKO_BASE = "https://api.coingecko.com/api/v3";
 const CMC_BASE_URL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency";
 
