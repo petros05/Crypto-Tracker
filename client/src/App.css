@@ -940,3 +940,359 @@ a {
   }
 }
 
+/* Dark Mode Styles */
+[data-theme="dark"] body,
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .nav_bar,
+.dark-mode .nav_bar {
+  background: #2d2d2d;
+  border-bottom-color: #444;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .nav-links a,
+.dark-mode .nav-links a {
+  color: #64a0ff;
+}
+
+[data-theme="dark"] .search,
+.dark-mode .search {
+  background: #2d2d2d;
+  border-color: #444;
+}
+
+[data-theme="dark"] .searchInput,
+.dark-mode .searchInput {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .dark_mood_btn,
+.dark-mode .dark_mood_btn {
+  color: #64a0ff;
+}
+
+[data-theme="dark"] .main,
+.dark-mode .main {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .main-title,
+.dark-mode .main-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .table-container,
+.dark-mode .table-container {
+  background: #2d2d2d;
+}
+
+[data-theme="dark"] .coins-table,
+.dark-mode .coins-table {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coins-table th,
+.dark-mode .coins-table th {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coins-table td,
+.dark-mode .coins-table td {
+  border-bottom-color: #444;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coins-table tr:hover,
+.dark-mode .coins-table tr:hover {
+  background: #333;
+}
+
+[data-theme="dark"] .name-column,
+.dark-mode .name-column {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .symbol,
+.dark-mode .symbol {
+  color: #ccc;
+}
+
+[data-theme="dark"] .auth-btn,
+.dark-mode .auth-btn {
+  background: #2d2d2d;
+  border-color: #64a0ff;
+  color: #64a0ff;
+}
+
+[data-theme="dark"] .auth-btn:last-child,
+.dark-mode .auth-btn:last-child {
+  background: #64a0ff;
+  color: #fff;
+}
+
+[data-theme="dark"] .auth-btn:hover,
+.dark-mode .auth-btn:hover {
+  background: #1a1a2e;
+}
+
+[data-theme="dark"] .profile-menu,
+.dark-mode .profile-menu {
+  background: #2d2d2d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .profile-menu li button,
+.dark-mode .profile-menu li button {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .profile-menu li button:hover,
+.dark-mode .profile-menu li button:hover {
+  background: #444;
+}
+
+[data-theme="dark"] .wrapper,
+.dark-mode .wrapper {
+  background: #2d2d2d;
+}
+
+[data-theme="dark"] .form header,
+.dark-mode .form header {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .form.login header,
+.dark-mode .form.login header {
+  color: #ccc;
+  opacity: 0.8;
+}
+
+[data-theme="dark"] form input,
+.dark-mode form input {
+  background: #1a1a1a;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .form.login input,
+.dark-mode .form.login input {
+  border-color: #444;
+}
+
+[data-theme="dark"] .form.login input:focus,
+.dark-mode .form.login input:focus {
+  box-shadow: 0 1px 0 #555;
+}
+
+[data-theme="dark"] .form.login input[type="submit"],
+.dark-mode .form.login input[type="submit"] {
+  background: #64a0ff;
+  color: #fff;
+}
+
+[data-theme="dark"] form a,
+.dark-mode form a {
+  color: #ccc;
+}
+
+[data-theme="dark"] .coin-btn,
+.dark-mode .coin-btn {
+  background: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-btn:hover,
+.dark-mode .coin-btn:hover {
+  background: #333;
+}
+
+[data-theme="dark"] .coin-detail-container,
+.dark-mode .coin-detail-container {
+  background: #1a1a1a;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-detail-title,
+.dark-mode .coin-detail-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-detail-nav-tabs,
+.dark-mode .coin-detail-nav-tabs {
+  border-bottom-color: #444;
+}
+
+[data-theme="dark"] .coin-detail-chart-container,
+.dark-mode .coin-detail-chart-container {
+  background: #2d2d2d;
+}
+
+[data-theme="dark"] .coin-detail-info-panel,
+.dark-mode .coin-detail-info-panel {
+  background: #2d2d2d;
+}
+
+[data-theme="dark"] .coin-detail-price,
+.dark-mode .coin-detail-price {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-detail-stat-row,
+.dark-mode .coin-detail-stat-row {
+  border-bottom-color: #444;
+}
+
+[data-theme="dark"] .coin-detail-stat-label,
+.dark-mode .coin-detail-stat-label {
+  color: #ccc;
+}
+
+[data-theme="dark"] .coin-detail-link-btn,
+.dark-mode .coin-detail-link-btn {
+  background: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-detail-about-section,
+.dark-mode .coin-detail-about-section {
+  background: #2d2d2d;
+}
+
+[data-theme="dark"] .coin-detail-about-title,
+.dark-mode .coin-detail-about-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-detail-about-text,
+.dark-mode .coin-detail-about-text {
+  color: #ccc;
+}
+
+[data-theme="dark"] .spinner-container,
+.dark-mode .spinner-container {
+  background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .spinner,
+.dark-mode .spinner {
+  border-color: #64a0ff;
+  border-top-color: transparent;
+}
+
+[data-theme="dark"] .search-page,
+.dark-mode .search-page {
+  background: #1a1a1a;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .search-title,
+.dark-mode .search-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .search-subtitle,
+.dark-mode .search-subtitle {
+  color: #ccc;
+}
+
+[data-theme="dark"] .back-btn,
+.dark-mode .back-btn {
+  background: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .back-btn:hover,
+.dark-mode .back-btn:hover {
+  background: #333;
+  border-color: #64a0ff;
+  color: #64a0ff;
+}
+
+[data-theme="dark"] .search-input-container,
+.dark-mode .search-input-container {
+  background: #2d2d2d;
+  border-color: #444;
+}
+
+[data-theme="dark"] .search-input-container:focus-within,
+.dark-mode .search-input-container:focus-within {
+  border-color: #64a0ff;
+}
+
+[data-theme="dark"] .search-input-field,
+.dark-mode .search-input-field {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .search-input-field::placeholder,
+.dark-mode .search-input-field::placeholder {
+  color: #666;
+}
+
+[data-theme="dark"] .search-dropdown,
+.dark-mode .search-dropdown {
+  background: #2d2d2d;
+  border-color: #444;
+}
+
+[data-theme="dark"] .search-result-item:hover,
+.dark-mode .search-result-item:hover {
+  background: #333;
+}
+
+[data-theme="dark"] .coin-name,
+.dark-mode .coin-name {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .coin-symbol,
+.dark-mode .coin-symbol {
+  color: #ccc;
+}
+
+[data-theme="dark"] .suggestions-title,
+.dark-mode .suggestions-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .suggestion-card,
+.dark-mode .suggestion-card {
+  background: #2d2d2d;
+  border-color: #444;
+}
+
+[data-theme="dark"] .suggestion-card:hover,
+.dark-mode .suggestion-card:hover {
+  border-color: #64a0ff;
+  box-shadow: 0 4px 12px rgba(100, 160, 255, 0.2);
+}
+
+[data-theme="dark"] .suggestion-coin-name,
+.dark-mode .suggestion-coin-name {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .suggestion-coin-symbol,
+.dark-mode .suggestion-coin-symbol {
+  color: #ccc;
+}
+
+[data-theme="dark"] .search-no-results p,
+.dark-mode .search-no-results p {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .search-no-results span,
+.dark-mode .search-no-results span {
+  color: #999;
+}
+
