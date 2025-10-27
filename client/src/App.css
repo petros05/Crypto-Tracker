@@ -962,12 +962,10 @@ body.dark-mode {
 [data-theme="dark"] .search,
 .dark-mode .search {
   background: #2d2d2d;
-  border-color: #444;
 }
 
 [data-theme="dark"] .searchInput,
 .dark-mode .searchInput {
-  background: #2d2d2d;
   color: #e0e0e0;
 }
 
